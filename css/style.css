@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    font-family: 'Outfit', sans-serif;
+}
+body
+{
+    width: 1440px;
+    text-align: center;
+    background : hsl(217, 54%, 11%);
+}
+.container
+{
+    width:20rem;
+    margin: 3rem auto;
+    padding: 1.2rem 0;
+    background: hsl(216, 50%, 16%);
+    border-radius: 1.2em;
+}
+
+#banner
+{
+    width: 80%;
+    border-radius: 1.2rem;
+    text-align: center;
+}
+
+p
+{
+
+    font-weight: 400;
+    width: 80%;
+    margin: 1rem auto;
+    font-size: 16px;
+    opacity: 0.6;
+    text-align: left;
+
+    color: aliceblue;
+}
+h3
+{
+    font-weight: 600;
+    color: aliceblue;
+    padding-left:2rem;
+    text-align: left;
+}
+.value
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.etharium
+{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    padding-left: 2rem;
+}
+h5
+{
+    padding-left: 3px;
+    color: hsl(178, 100%, 50%);
+}
+.time
+{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    padding-right: 2rem;
+    position: relative;
+    left: 3rem;
+}
+#clock
+{
+    width: 15%;
+}
+#etharium-img
+{
+    width: 10%;
+    height: fit-content;
+}
+hr
+{
+    color: aliceblue;
+    opacity: 0.3;
+    width: 90%;
+    height: 0;
+}
+.foot
+{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+#photo
+{
+    width: 15%;
+    height: fit-content;
+    padding-right: 2rem;
+    padding-left: 1rem;
+}
+#name
+{
+    color: white;
+    opacity: 1;
+    font-weight: 500;
+    margin: 0;
+}
+#creation
+{
+    margin: 0;
+}
