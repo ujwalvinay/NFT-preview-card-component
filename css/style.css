@@ -19,11 +19,17 @@ body
 
 #banner
 {
-    width: 80%;
+    position: relative;
+    width: 90%;
     border-radius: 1.2rem;
     text-align: center;
+    top: 0;
+    left: 0;
 }
-
+#banner:hover{
+    color: hsl(178, 100%, 50%);
+    opacity: .3;
+}
 p
 {
 
@@ -42,6 +48,9 @@ h3
     color: aliceblue;
     padding-left:2rem;
     text-align: left;
+}
+h3:hover{
+    color:hsl(178, 100%, 50%) ;
 }
 .value
 {
@@ -106,6 +115,9 @@ hr
     opacity: 1;
     font-weight: 500;
     margin: 0;
+}
+#name:hover{
+    color:hsl(178, 100%, 50%) ;
 }
 #creation
 {
